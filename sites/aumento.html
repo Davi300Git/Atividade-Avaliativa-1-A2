@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cálculo da Média Aritmética</title>
+    <script src="/js/aumento.js" defer></script>
+</head>
+<header>
+    <nav>
+        <a href="/Avaliacao.html">Home</a>
+        <a href="aritmetica.html">aritmetica</a>
+        <a href="parametros.html">parametros</a>
+        <a href="variavel.html">variavel</a>
+    </nav>
+    </head>
+
+    <body>
+        <h3>1- Uma empresa irá dar 25% de aumento para todos os funcionários, você deverá desenvolver um
+            programa que leia o salário atual do funcionário. Após a leitura, calcule e mostre na própria página
+            o salário atual em uma linha e em outra linha o salário com o aumento de 25%</h3>
+        <h2>Calculadora de Aumento Salarial</h2>
+
+        <label for="salario">Digite o salário atual:</label>
+        <input type="number" id="salario" placeholder="Ex: 2000" step="0.01">
+
+        <button onclick="calcularAumento()">Calcular</button>
+
+        <p id="salarioAtual"></p>
+        <p id="salarioAjustado"></p>
+    </body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Cálculo de Consumo</title>
+    <script src="/js/parametros.js" defer></script>
+</head>
+<header>
+    <nav>
+        <a href="/Avaliacao.html">Home</a>
+        <a href="aritmetica.html">aritmetica</a>
+        <a href="aumento.html">aumento</a>
+        <a href="variavel.html">variavel</a>
+    </nav>
+</header>
+
+<body>
+    <h2>Calculadora de Viagem</h2>
+
+    <label>Km Inicial: </label>
+    <input type="number" id="kmInicial" placeholder="Ex: 1200"><br><br>
+
+    <label>Km Final: </label>
+    <input type="number" id="kmFinal" placeholder="Ex: 1500"><br><br>
+
+    <label>Litros gastos: </label>
+    <input type="number" id="litros" placeholder="Ex: 20"><br><br>
+
+    <label>Preço do litro (R$): </label>
+    <input type="number" id="precoLitro" step="0.01" placeholder="Ex: 5.50"><br><br>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <h3>Resultados:</h3>
+    <p id="distancia"></p>
+    <p id="consumo"></p>
+    <p id="valor"></p>
+</body>
+
+</html>
